@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 58%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  display: grid;
+  grid-template-columns: 17% 1fr;
+  font-family: PT Serif;
+  font-size: 17px; 
+  line-height: 20px; 
+  padding: 20px;
+}
+.first-div{
+  padding-bottom: 0;
+  color: rgb(187, 185, 185);
+  background-color: #ff5a2c;
+  border-radius: 10px;
+}
+.sub-second2-one{
+  background-color: #20233d;
+  border-radius: 10px;
+  height: 100%;
+}
+.second-two{
+  display: grid;
+  grid-template-columns: 79% 21%;
+}
+.contact{
+  background-color: #5ddae6;
+  border-radius: 10px;
+  margin: 0 0 20px 20px;
+  padding: 20px;
+}
+.work-year{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 40px;
+}
+.work,.education,.references,.about{
+  margin-left: 20px;
+  margin-right: 40px;
+}
+.references-para,.con-grp{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 30px;
+}
+.year-work{
+  position: relative;
+  top: 40px;
+}
+.red-box{
+  width: 30px;
+  height: 28px;
+  border-radius: 6px;
+  background-color: #ff5a2c;
+  position: relative;
+  top: 15px;
+}
+.skill-red-box{
+  width: 23px;
+  height: 20px;
+  border-radius: 6px;
+  background-color: #ff5a2c;
+  position: relative;
+  top: 19px;
+  right: 25px;
+}
+.heading-redbox{
+  display: grid;
+  grid-template-columns: 15% 1fr;
+}
+.heading-contact,.heading-award,.heading-references,.heading-about,.heading-education,.heading-work,.heading-hobbies{
+  margin-bottom: 20px;
+  color: #fb5a28;
+  margin-top: 20px;
+  font-family: Libre Franklin;
+  font-size: 18px;
+  position: relative;
+  right: 6px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+.work-data,.education-data,.refer-data{
+  margin-left: 60px;
+}
+.about-para{
+  position: relative;
+  top: 11px;
+  margin-bottom: 40px;
+}
+.name-para{
+  background-color: white;
+  color: #20233d;
+  position: absolute;
+  top: 310px;
+  left: 224px;
+  transform: rotate(-90deg);
+  padding: 20px 50px 50px 50px;
+  border-radius: 20px;
+}
+.name{
+  font-size: 36px;
+  letter-spacing: 8px;
+}
+.skills{
+  background-color: white;
+  color: #fb5a28;
+  position: absolute;
+  top: 1043px;
+  right: 376px;
+  padding: 20px 28px 00px 28px;
+  border-radius: 15px;
+  transform: rotate(-90deg);
+}
+.skills .heading-redbox{
+  margin-left: 30px;
+}
+.languages{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  column-gap: 50px;
+  text-align: center;
+}
+.circle-para{
+      background-color: transparent;
+    width: 38px;
+    height: 36px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    background-image: linear-gradient(#20233d, #20233d),                   linear-gradient(53deg, #ff5a2c 73%, white 57%);
+    background-origin: content-box, border-box, border-box, border-box, border-box;
+    background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.para1{
+  position: relative;
+  bottom: 40px;
+}
+.skill-data{
+  color: rgb(211, 209, 209);
+  position: absolute;
+  top: 531px;
+  right: 133px;
+  transform: rotate(-90deg);
+}
+.lang-name{
+  position: relative;
+  right: 6px;
+  top: 8px;
+  font-size: 14px;
+}
+.instagram,.behance{
+  display: grid;
+  grid-template-columns: 12% 1fr;
+  column-gap: 10px;
+}
+.data{
+  color: rgb(233, 231, 231);
+  position: absolute;
+  top: 945px;
+  left: 278px;
+  font-size: 10px;
+  transform: rotate(-90deg);
+}
+.data-name{
+  font-weight: bold;
+  position: relative;
+  bottom: 1px;
+  margin-bottom: -10px;
+  font-size: 15px;
+}
+.data-para{
+  margin-bottom: 8px;
+  font-size: 14px;
+  word-spacing: 2px;
+  position: relative;
+  left: 43px;
+  bottom: 12px;
+}
+.data-icon{
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+}
+.work-para{
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.work-date{
+  font-size: 14px;
+  position: relative;
+  left: 7px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.references{
+  margin-bottom: 20px;
+}
+.phone,.email,.address,.linkedin{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin-bottom: 15px;
+}
+.about-para{
+  text-align:justify;
+  text-justify: inter-word;
+  word-spacing: -3px;
+}
+.main-para{
+  margin-bottom: 4px;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.long-para{
+  margin-bottom: 30px;
+}

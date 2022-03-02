@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 750px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  padding: 30px 50px 30px 50px ;
+  font-family: PT serif;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 35% 0 1fr;
+  column-gap: 40px;
+  font-size: 14px;
+}
+.img{
+  width: 59%;
+  height: 50%;
+  border-radius: 50%;
+  position: relative;
+  left: 45px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.fname{
+  position: relative;
+  left: 39px;
+  display: inline-block;
+  font-size: 36px;
+  margin-top: 6px;
+}
+.lname{
+  position: relative;
+  left: 14px;
+  bottom: 10px;
+  font-size: 36px;
+  display: inline-block;
+}
+.sub-para{
+  position: relative;
+  left: 52px;
+  font-size: 16px;
+  bottom: 7px;
+}
+.heading-about{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about-para1{
+  margin-bottom: 20px;
+}
+.first-div-hr{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.bold{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.con-para{
+  margin-bottom: 15px;
+}
+.refer-name{
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.refer-role{
+  margin-bottom: 10px;
+}
+.refer2{
+  margin-top: 30px;
+}
+span{
+  font-weight: 600;
+  margin-right: 5px;
+}
+.year-data{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 10px;
+}
+.expe-post,.degree{
+  font-weight: bold;
+  margin-bottom: 7px;
+  font-size: 17px;
+}
+.location{
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.experience1,.experience2,.education1{
+  margin-bottom: 30px;
+}
+.skill{
+  display: grid;
+  grid-template-columns: 35% 1fr;
+}
+.skill-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 30px;
+}
+.progrssbar{
+  width: 80%;
+  height: 6px;
+  background-color: gray;
+  margin-bottom: 25px;
+}
+.fill{
+  background-color: #28292b;
+  height: 100%;
+}
+.fillprogess-skill-1{
+  width: 85%;
+}
+.fillprogess-skill-2{
+  width: 80%;
+}
+.fillprogess-skill-3{
+  width: 90%;
+}
+.fillprogess-skill-4{
+  width: 95%;
+}
+.heading-education,.heading-skills{
+  margin-bottom: 40px;
+  margin-top: 60px;
+  font-size: 19px;
+}
+.heading-experience,.heading-contact,.heading-references{
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+.skill-para{
+  position: relative;
+  bottom: 8px;
+}
+.hr1{
+  width: 70%;
+  position: relative;
+  bottom: 42px;
+  left: 126px;
+}
+.hr2{
+  width: 74%;
+  position: relative;
+  bottom: 52px;
+  left: 118px;
+}
+.hr3{
+  width: 75%;
+  position: relative;
+  bottom: 52px;
+  left: 113px;
+}

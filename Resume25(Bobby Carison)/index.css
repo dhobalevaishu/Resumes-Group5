@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 700px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  font-family: PT Serif;
+  font-size: 13.5px;
+  line-height: 24px;
+}
+.first-div{
+  display: grid;
+  grid-template-columns: 33.3% 1fr;
+}
+.second-div{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.third-div{
+  display: grid;
+  grid-template-columns: 66.7% 1fr;
+}
+.first-one{
+  padding: 40px 30px 30px 30px;
+  background-color: #267da8;
+  color: #ebedea;
+}
+.first-two{
+  padding: 40px 30px 30px 30px;
+}
+.second-one{
+  background-color: hsl(205, 68%, 18%);
+  color: #ebedea;
+  padding: 40px 30px 30px 30px;
+}
+.second-three{
+  padding: 40px 30px 30px 30px;
+  background-color: #25536a;
+  color: #ebedea;
+}
+.third-two{
+  background-color: #267da8;
+  padding: 40px 30px 30px 30px;
+  color: #ebedea;
+}
+.third-one{
+  padding: 40px 30px 30px 30px;
+}
+.img{
+  width: 100%;
+  height: 238px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+}
+.bold{
+  font-weight: bold;
+  margin-bottom: 9px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+.education1,.expe1,.expe2{
+  margin-bottom: 25px;
+}
+.progrssbar{
+  width: 100%;
+  height: 9px;
+  background-color: #eef0ed;
+  margin-bottom: 20px;
+  border: 1.7px solid #eef0ed;
+}
+.fill{
+  background-color: #051b2d;
+  height: 100%;
+}
+.fillprogess-skill-1{
+  width: 85%;
+}
+.fillprogess-skill-2{
+  width: 80%;
+}
+.fillprogess-skill-3{
+  width: 90%;
+}
+.fillprogess-skill-4{
+  width: 95%;
+}
+.fillprogess-skill-5{
+  width: 90%;
+}
+.fillprogess-skill-6{
+  width: 75%;
+}
+.skill-para{
+  margin-bottom: 6px;
+}
+.heading-work,.heading-education{
+  font-size: 23px;
+  margin-bottom: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 2px;
+}
+.heading-graphic{
+  font-size: 20px;
+}
+.graphic-para{
+  margin-bottom: 35px;
+}
+.heading-skills,.heading-contact,.heading-awards,.heading-references{
+  margin-bottom: 25px ;
+  font-size: 23px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 2px;
+}
+.year{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.fname{
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lname{
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 138px;
+  margin-top: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span{
+  font-weight: bold;
+  margin-right: 10px;
+  color: white;
+}
+.phone,.email,.web,.location{
+  margin-bottom: 10px;
+}
+.awards,.references{
+  text-align: center;
+}
+.award-year{
+  margin-bottom: 5px;
+}
+.para1{
+  margin-bottom: 10px;
+}
+.refer-para1,.refer-para2{
+  margin-bottom: 7px;
+}

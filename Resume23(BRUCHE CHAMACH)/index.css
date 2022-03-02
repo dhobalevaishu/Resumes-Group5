@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+/* normal text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+/* heading text fontfamily link */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@500;900&family=Source+Sans+Pro:wght@300;400&family=Yellowtail&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 55%;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #cfc9c9;
+  padding: 30px 50px 30px 50px ;
+  font-family: PT serif;
+  font-size: 15px;
+}
+.first-div{
+  /* border: 2px solid gray; */
+  /* padding: 20px; */
+  padding-bottom: 0;
+  /* background-color: #242323; */
+  color: rgb(187, 185, 185);
+}
+.second-div{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 60px;
+}
+.year{
+  margin-right: 20px;
+}
+.skill-1{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  margin-bottom: 15px;
+}
+.progrssbar{
+  width: 80%;
+  height: 6px;
+  background-color: gray;
+}
+.fill{
+  background-color: #28292b;
+  height: 100%;
+}
+.fillprogess-skill-1{
+  width: 85%;
+}
+.fillprogess-skill-2{
+  width: 80%;
+}
+.fillprogess-skill-3{
+  width: 90%;
+}
+.fillprogess-skill-4{
+  width: 95%;
+}
+.percent{
+  text-align: right;
+  position: relative;
+  top: 6px;
+  left: 85%;
+  font-size: 14px;
+  display: inline-block;
+}
+.point{
+  position: relative;
+  bottom: 8px;
+  left: 2px;
+  float: right;
+  font-weight: bold;
+  color: #1d1a1a;
+}
+.expertice .point{
+  position: relative;
+  bottom: 8px;
+  left: 1px;
+  float: right;
+  font-weight: bold;
+  color: #1d1a1a;
+}
+.education-para{
+  margin-bottom: 15px;
+}
+.long-para{
+  margin-top: 15px;
+}
+.main-para{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 8px;
+  margin-top: 28px;
+  font-weight: bold;
+}
+.heading-contact,.heading-expertice,.heading-skills,.heading-references,.heading-about,.heading-education,.heading-work{
+  /* margin-bottom: 30px; */
+  margin-top: 40px;
+  font-family: Libre Franklin;
+  font-size: 1.1rem;
+}
+.skill-para{
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.expertice .skill-para{
+  font-size: 15px;
+}
+.img-para{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  column-gap: 60px;
+  background-color: #f3f4f6;
+  color: black;
+  /* padding: 30px; */
+}
+.img{
+  width: 213px;
+  height: 216px;
+}
+.img img{
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 100%;
+}
+.contact{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 30px;
+}
+.phone,.email,.web,.location{
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  margin-bottom: 20px;
+}
+hr{
+  border-top: 1px solid rgb(172, 170, 170);
+  margin-bottom: 30px;
+  margin-top:6px;
+  /* position: relative; */
+  /* bottom: 20px; */
+}
+.sub-para{
+  margin-top: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.name{
+  font-size: 30px;
+  margin-top: 20px;
+  word-spacing: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para hr{
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  width: 109px;
+  margin-top: 20px;
+}
+.last-name{
+  letter-spacing: .1rem;
+  font-size: 26px;
+  color: #1d1a1a;
+  font-family: Roboto Serif;
+}
+.contact-para,.email-para,.web-para,.add-para,.achive-para,.refer-para-1,.refer-para-2{
+  color: gray;
+}
+.con-para{
+  position: relative;
+  bottom: 4px;
+}
+.about-para{
+  text-align: justify;
+  justify-items: right;
+  word-spacing: -2px;
+}
+.epara,.wpara{
+  margin-top: 0;
+}
