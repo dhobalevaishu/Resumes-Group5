@@ -183,26 +183,16 @@ span{
   font-size: 18px;
   position: relative;
   top: 2px;
-  left: 30px;
 }
 .insta,.facebook{
   margin-bottom: 10px;
 }
-.references{
-  margin-top: 35px;
-}
-.refer-grid{
+.grid-data{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   column-gap: 60px;
+  margin-top: 35px;
 }
-.social{
-  background-color: #051b2d;
-  padding-top: 40px;
-  padding-bottom: 55px;
-  text-align: center;
-  color: #e9e7e7;
-}
-.references,.lang{
+.references,.lang,.social{
   display: none;
 }

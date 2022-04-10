@@ -23,6 +23,8 @@
   font-family: PT serif;
   font-size: 14px;
   font-size: 14px;
+}
+.sub-container{
   padding: 30px 50px 30px 50px ;
   display: grid;
   grid-template-columns: 35% 0 1fr;
@@ -197,11 +199,22 @@ span{
   position: relative;
   top: 1px;
 }
-.insta,.facebook{
-  margin-bottom: 10px;
-}
 .social{
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  background-color: #b3b6bb;
+}
+.Twitter{
+  position: relative;
+  left: 72px;
+}
+.facebook{
+  position: relative;
+  left: 45px;
+}
+.social-para{
+  font-weight: 600;
 }
 .certi,.projects{
   display: none;
